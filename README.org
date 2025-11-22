@@ -1,0 +1,18 @@
+#+title: Currency Converter
+This is a remake of a project I did a long time ago in Java
+
+Now in Clojure!
+
+*  Table of Contents :toc:
+-  [[#roadmap][Roadmap]]
+  -  [[#data-model][Data model]]
+  -  [[#connect-to-an-api][Connect to an api]]
+  -  [[#all-for-now][All for now!]]
+
+*  Roadmap
+Here is the first steps in making it.
+**  Data model
++ How I should structure the data
+**  Connect to an api
++ Make a connection to an api
+**  All for now!
