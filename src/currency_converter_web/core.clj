@@ -1,7 +1,8 @@
 (ns currency-converter-web.core
-  (:gen-class))
+  (:gen-class)
+  (:require [currency-converter-web.requests :as requests]))
 
 (defn -main
-  "I don't do a whole lot ... yet."
   [& args]
-  (println "Hello, World!"))
+  ;; If data is 6 hours or older request new data
+  (requests/get-currency-data-with-file-cache 6))

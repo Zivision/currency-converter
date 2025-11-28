@@ -11,3 +11,8 @@ pom.xml.asc
 /.prepl-port
 .hgignore
 .hg/
+
+# Important config files to Ignore
+profiles.clj
+.lein-env
+currency-cache.edn
