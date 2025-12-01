@@ -7,12 +7,26 @@ Now in Clojure!
 -  [[#roadmap][Roadmap]]
   -  [[#data-model][Data model]]
   -  [[#connect-to-an-api][Connect to an api]]
-  -  [[#all-for-now][All for now!]]
+  -  [[#setup-server][Setup server]]
+  -  [[#connect-to-multiple-api-todo][Connect to multiple api TODO]]
+  -  [[#find-good-way-to-cache-api-calls-todo][Find good way to cache api calls TODO]]
+  -  [[#build-endpoints-todo][Build Endpoints TODO]]
+  -  [[#build-frontend-todo][Build frontend TODO]]
 
 *  Roadmap
 Here is the first steps in making it.
 **  Data model
-+ How I should structure the data
++ DONE
 **  Connect to an api
-+ Make a connection to an api
-**  All for now!
++ DONE
+**  Setup server
++ DONE
+**  Connect to multiple api TODO
++ Need to add more datasets and crypto data
+**  Find good way to cache api calls TODO
++ Find a way to store api calls temporarily for a limited time
+  (SQLite or lightweight database)
+**  Build Endpoints TODO
++ Build endpoints for converting two currency types
+**  Build frontend TODO
++ Build interactive frontend with either a small js framework, reagent, or htmx
