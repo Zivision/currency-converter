@@ -8,6 +8,7 @@
   [& args]
   ;; If data is 6 hours or older request new data
   (requests/get-currency-data-with-file-cache 6)
+  ;; Start Server on 3000 or provided port number
   (let [port (Integer/parseInt (or (System/getenv "PORT") "3000"))]
     (println (str "Starting server on port " port "..."))
     (run-jetty server/app {:port port :join? false})))

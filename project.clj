@@ -10,7 +10,8 @@
                  [ring/ring-core "1.10.0"]
                  [ring/ring-jetty-adapter "1.10.0"]
                  [ring/ring-json "0.5.1"]
-                 [compojure "1.7.0"]]
+                 [compojure "1.7.0"]
+                 [seancorfield/next.jdbc "1.2.659"]]
   :plugins [[lein-environ "1.2.0"]]
   :main ^:skip-aot currency-converter-web.core
   :target-path "target/%s"
